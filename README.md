@@ -29,6 +29,13 @@
 
   > 문정진
   > > 로그인/회원가입 API, 메인 페이지 API, 필터링, 추천 알고리즘 API, 구매 API
+  
+## 내가 구현한 기능
+- Typeorm, mysql을 사용하여 DataBase 관리 및 CRUD 구현<br/>
+	- 서브쿼리와 INNER JOIN 등 쿼리문을 사용하여 각 Method에 맞는 제품에 대한 조회, 장바구니 조회/생성/추가/삭제, 색상에 따른 제품 조회 API <br/>엔드포인트 구현
+	- RESTful API위한 url 작성
+	- postman 도구를 이용하여 각 API기능에 따른 서버 정상작동 확인
+	- Error Handling을 통해 Error 발생에 따른 알맞은 statusCode 반환
 
 ## 기술 스택
 - FE
