@@ -1,5 +1,7 @@
 # 따봉 가락신 🏖
+
 ## 시연영상 LINK
+
 [![Video Label](http://img.youtube.com/vi/kaVLMD1Mfi4/0.jpg)](https://youtu.be/kaVLMD1Mfi4)
 
 👉화면을 클릭하면 영상으로 이동합니다.
@@ -10,49 +12,63 @@
 클론 사이트 : 하바이아나스 https://havaianas.com.br/
 
 ## 팀원 소개 (가나다 순)
+
 - FE
+
   > 박승민
+  >
   > > 메인 페이지, 장바구니
-  
+
   > 송경용
+  >
   > > 로그인/회원가임
 
   > 임채동
+  >
   > > 메인 페이지, 상품 목록 페이지
 
   > 최슬기
+  >
   > > NavBar, 상품 상세 페이지
 
 - BE
+
   > 길성민
+  >
   > > 제품 상세 API, 장바구니 API, 카테고리 API, 색상별 제품 조회 API
 
   > 문정진
+  >
   > > 로그인/회원가입 API, 메인 페이지 API, 필터링, 추천 알고리즘 API, 구매 API
-  
-## 내가 구현한 기능
+
+  ## 내가 구현한 기능
+
 - Typeorm, mysql을 사용하여 DataBase 관리 및 CRUD 구현<br/>
-	- 서브쿼리와 INNER JOIN 등 쿼리문을 사용하여 각 Method에 맞는 제품에 대한 조회, 장바구니 조회/생성/추가/삭제, 색상에 따른 제품 조회 API <br/>엔드포인트 구현
-	- RESTful API위한 url 작성
-	- postman 도구를 이용하여 각 API기능에 따른 서버 정상작동 확인
-	- Error Handling을 통해 Error 발생에 따른 알맞은 statusCode 반환
+  - 서브쿼리와 INNER JOIN 등 쿼리문을 사용하여 각 Method에 맞는 제품에 대한 조회, 장바구니 조회/생성/추가/삭제, 색상에 따른 제품 조회 API <br/>엔드포인트 구현
+  - RESTful API위한 url 작성
+  - postman 도구를 이용하여 각 API기능에 따른 서버 정상작동 확인
+  - Error Handling을 통해 Error 발생에 따른 알맞은 statusCode 반환
 
 ## 기술 스택
+
 - FE
 
-	<img src="https://img.shields.io/badge/HTML5-E34F26?style=round&logo=HTML5&logoColor=white"/> <img src="https://img.shields.io/badge/CSS3-1572B6?style=round&logo=CSS3&logoColor=white"/> <img src="https://img.shields.io/badge/JS-F7DF1E?style=round&logo=JavaScript&logoColor=white"/> <img src="https://img.shields.io/badge/React.js-61DAFB?style=round&logo=React&logoColor=white"/>
-  
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=round&logo=HTML5&logoColor=white"/> <img src="https://img.shields.io/badge/CSS3-1572B6?style=round&logo=CSS3&logoColor=white"/> <img src="https://img.shields.io/badge/JS-F7DF1E?style=round&logo=JavaScript&logoColor=white"/> <img src="https://img.shields.io/badge/React.js-61DAFB?style=round&logo=React&logoColor=white"/>
+
 - BE
 
-	<img src="https://img.shields.io/badge/Node.js-339933?style=round&logo=Node.js&logoColor=white"/> <img src="https://img.shields.io/badge/Express-666666?style=round&logo=Express&logoColor=white"/> <img src="https://img.shields.io/badge/TypeORM-222222?style=round&logo=typeorm&logoColor=white"/> <img src="https://img.shields.io/badge/MySQL-4479A1?style=round&logo=MySQL&logoColor=white"/> <img src="https://img.shields.io/badge/AWS-232F3E?style=round&logo=Amazon%20AWS&logoColor=white"/>
-  
+  <img src="https://img.shields.io/badge/Node.js-339933?style=round&logo=Node.js&logoColor=white"/> <img src="https://img.shields.io/badge/Express-666666?style=round&logo=Express&logoColor=white"/> <img src="https://img.shields.io/badge/TypeORM-222222?style=round&logo=typeorm&logoColor=white"/> <img src="https://img.shields.io/badge/MySQL-4479A1?style=round&logo=MySQL&logoColor=white"/> <img src="https://img.shields.io/badge/AWS-232F3E?style=round&logo=Amazon%20AWS&logoColor=white"/>
+
 ## ERD
+
 ![스크린샷 2022-08-26 13-45-06](https://user-images.githubusercontent.com/105341553/186824383-79a06b35-0e93-4a3e-ab8a-611b85840518.png)
 
 ## API Documentation
+
 [API Documentation](https://documenter.getpostman.com/view/22449644/VUquKF7D)
 
 ## 프로젝트 회고록
+
 - 길성민
   - **좋았던 점**
     1. 프런트분들이 필요한 데이터 정보를 정확하게 알려주셔서 response로 보내주어야 할 데이터를 어떤 구조로 보내드려야 할 지 빠르게 생각할 수 있어서 좋았습니다.
