@@ -5,6 +5,4 @@ const router = express.Router();
 router.get('/type/:typeId', categoriesController.getCategoryListByType);
 router.get('/color/:colorId', categoriesController.getCategoryListByColor);
 
-module.exports = {
-    router
-}
+module.exports = router;

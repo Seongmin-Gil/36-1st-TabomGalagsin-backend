@@ -1,4 +1,4 @@
-const { database } = require("./database");
+const { database } = require('./database');
 
 const getProductByType = async (typeId, sort, priceLimitRange, theme) => {
   const result = await database.query(
