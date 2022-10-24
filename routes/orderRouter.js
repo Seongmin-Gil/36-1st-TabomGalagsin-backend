@@ -5,10 +5,8 @@ const router = express.Router();
 
 const { validateToken } = require('../middlewares/auth.js');
 
-router.get('/point', validateToken, orderController.lookUpPoint)
+router.get('/point', validateToken, orderController.lookUpPoint);
 
-router.post('/payment', validateToken, orderController.payment)
+router.post('/payment', validateToken, orderController.payment);
 
-module.exports = {
-	router
-}
+module.exports = router;
